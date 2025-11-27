@@ -131,4 +131,30 @@
   .input-group input {
     padding: 1rem; /* Aumenta el padding para un mejor toque táctil (16px) */
   }
+
+  @media (max-width: 600px) {
+    /* ...tus estilos existentes... */
+
+    /* Contenedor de productos o imágenes */
+    .div-gral-bca {
+      display: flex;
+      flex-direction: column-reverse; /* texto arriba, imágenes abajo */
+      align-items: center; /* centra horizontalmente todo */
+      text-align: center; /* centra texto si quieres */
+    }
+
+    .div-prod-img,
+    .div-bca-video {
+      display: flex;
+      justify-content: center; /* centra las imágenes/videos horizontalmente */
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+
+    .div-prod-img img,
+    .div-bca-video iframe {
+      max-width: 51%; /* opcional: que no ocupe todo el ancho */
+      height: auto; /* mantener proporción */
+    }
+  }
 }
