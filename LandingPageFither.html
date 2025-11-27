@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mi web Site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+
+  </head>
+  <body>
+   <!--LOGO Y MENUS-->
+  <nav class="topheader">
+    <a href="" class="logo">
+      <img height ="80" width="80" src="img/logo1.png" alt=""/>
+    </a> 
+
+
+    <ul class ="Menu-Horizontal">
+      <li><a href ="">Productos</a></li>
+      <li><a href ="">Servicios</a>
+      <ul class ="Menu-Vertical">
+        <li><a href ="">Pago Servicios</a></li>
+        <li><a href ="">Pago Impuestos</a></li>
+        <li><a href ="">Transferencias</a></li>
+        <li><a href ="">Financieras</a></li>
+      </ul>
+      </li>
+      <li><a href =""> Banca por internet</a></li>
+      <li><a href ="">Contactanos</a></li>
+
+    </ul>
+   </nav>
+   <!--SECCION PRODUCTOS-->
+   
+   <SECTION CLASS ="seccion-productos">
+    <div class="div-gral-bca">
+      <div class="div-prod-texto">
+
+
+
+        <h2> Seccion Productos</h2>
+
+
+        <p>
+          En FitHer creemos que cada prenda deportiva debe EMPODERARTE. 
+          Nuestra colección está pensada para mujeres que buscan verse bien 
+          mientras se sienten cómodas, libres y seguras. Desde tops que realzan 
+          tu figura hasta leggings que se adaptan a cada movimiento, nuestras 
+          prendas combinan diseño, calidad y tecnología textil para acompañarte en 
+          tu rutina diaria o tus momentos más tranquilos.
+
+        </p>
+
+        <p>
+          Cada pieza está confeccionada con materiales suaves, transpirables y 
+          resistentes, garantizando una experiencia única al entrenar o al disfrutar 
+          de tu día. Porque sabemos que la verdadera confianza viene de sentirte cómoda
+          contigo misma, nuestras líneas deportivas e íntimas te ofrecen el soporte y 
+          estilo que necesitas sin renunciar a la feminidad.
+
+        </p>
+
+        <p>
+          En FitHer, no solo vendemos ropa: ofrecemos bienestar y seguridad. Nuestras prendas 
+          cuentan con garantía de calidad, costuras reforzadas y tejidos que cuidan tu piel. 
+          Queremos que cada compra sea una inversión en ti misma, en tu energía y en tu fuerza. 
+          Con FitHer, entrenar, descansar o brillar… siempre será con estilo.
+
+        </p>
+
+      </div>
+
+
+      <div class="div-prod-img">
+        <img src= "img/chicamodelo.jpg">
+        <img src= "img/descarga.jpeg">
+      
+      
+      </div>
+    </section>
+
+   <!--SECCION VIDEO PRODUCTOS-->
+   
+   <section class ="seccion-banca">
+    <div class="div-gral-bca">
+      <div class="div-prod-texto">
+        <h2> Coleccion Nueva</h2>
+
+        <p>
+          Descubre la nueva colección deportiva FitHer, diseñada para mujeres 
+          que viven el movimiento con estilo y confianza. Cada prenda combina tecnología,
+          comodidad y un toque femenino que resalta tu energía única. Colores vibrantes,
+          tejidos livianos y cortes modernos se unen para acompañarte en cada 
+          entrenamiento y en tu día a día.
+        </p>
+
+        <p>
+          Esta temporada celebra la fuerza femenina con piezas versátiles 
+          que se adaptan a ti. Desde leggings moldeadores hasta tops de alto soporte, 
+          nuestra colección está pensada para inspirarte a sentirte poderosa, cómoda y 
+          auténtica. Muévete con FitHer, donde cada detalle está hecho para ti.
+        </p>
+
+
+      </div>
+
+
+      <div class="div-bca-video">
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8WcbEpDvrXw?si=fVfPzXcMxGLGRvww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+     </div>
+    </div>
+    </section>
+
+    <section class="seccion-formulario">
+         <div class="div-cont-formulario">
+          <h2>Formulario de Atencion al cliente</h2>
+          <p>Complete todos los campos</p>
+          <form class = "formulario">
+            <!--LABEL / INPUT-->
+            <div class = "campo">
+              <label for="nombre">Nombres Completos:</label>
+              <input type="text"id="nombre"name="nombre" placeholder="Ingrese su nombre"/>
+
+            </div>
+
+             <!--MENU DESPEGABLE-->
+            <div class = "campo">
+              <label for="nombre">Pais:</label>
+              <select id="pais" name="pais">
+                <option value="">seleccione un pais</option>
+                <option value="Peru">Peru</option> 
+                <option value="Colombia">Colombia</option> 
+                <option value="Mexico">Mexico</option> 
+                <option value="Brasil">Brasil</option> 
+                <option value="Argentina">Argentina</option> 
+             </select>
+            </div>
+
+             <!--CHECKBOX-->
+            <div class = "campo">
+              <label>Intereses:</label>
+              <ul class="lista-checkbox">
+                <li><label><input type="checkbox" name="Intereses" value="Ropa Deportiva">Ropa Deportiva</label></li>  
+                <li><label><input type="checkbox" name="Intereses" value="Conjuntos Gym">Conjuntos Gym</label></li>
+                <li><label><input type="checkbox" name="Intereses" value="Nueva colección">Nueva colección</label></li>
+                <li><label><input type="checkbox" name="Intereses" value="Conjunto Yoga">Conjunto Yoga</label></li>
+
+              </ul>
+
+            </div>
+             <!--RADIO-->
+            <div class = "campo">
+              <label>Sexo:</label>
+              <ul class="lista-radio">
+                <li><label><input type="radio" name="sexo" value="femenino">Femenino</label></li> 
+                <li><label><input type="radio" name="sexo" value="masculino">Masculino</label></li>
+                <li><label><input type="radio" name="sexo" value="nodecir">No Menciono</label></li>
+
+              </ul>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+         </div>
+  </section>
+
+ <!-- PIE DE PAGINA -->
+
+ <section id="footer">
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Logo y nombre de sitio -->
+      <div class="footer-brand">
+        <img
+          src="img/logo1.png"
+          alt="Logo"
+          class="footer-logo"
+        />
+        <p>FitHer</p>
+        <small>© 2025 Todos los derechos reservados</small>
+      </div>
+
+      <!-- Enlaces legales -->
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <a href="/Documentos/3.politica-privacidad.pdf"
+          >Política de Privacidad</a
+        >
+        <!-- Dentro de href llama a un documento pdf con la poltica-->
+        <a href="#">Términos y Condiciones</a>
+        <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+        <a href="Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+      </div>
+
+      <!-- Redes sociales con íconos personalizados -->
+      <div class="footer-social">
+        <h4>Síguenos</h4>
+        <a href="#"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+            alt="Facebook"
+            class="social-icon"
+        /></a>
+        <a href="#"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+            alt="Instagram"
+            class="social-icon"
+        /></a>
+        <a href="#"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+            alt="LinkedIn"
+            class="social-icon"
+        /></a>
+        <a href="#"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+            alt="Twitter"
+            class="social-icon"
+        /></a>
+      </div>
+    </div>
+  </footer>
+</section>
+
+</body>
+</html>
